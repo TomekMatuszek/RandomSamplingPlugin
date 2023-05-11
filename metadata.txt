@@ -1,0 +1,34 @@
+[general]
+name=Random sampling plugin
+email=tommat1@amu.edu.pl
+author=Tomasz Matuszek
+qgisMinimumVersion=3.0
+description=Opis samodzielnie wykonanego pluginu
+    Można stosować wiele linii:
+    linie, które należą do tego samego pola
+    muszą być oddzielone spacjami
+    formatowanie HTML nie jest dopuszczalne
+about=Szczegółowy opis pluginu
+    można stosować wiele linii (spacje) HTML - nie
+version=version 1.0
+tracker=http://bugs.server.org
+repository=http://www.server.org/repo
+
+category=Vector
+changelog=The changelog lists the plugin versions
+    and their changes as in the example below:
+    2.0 - Adopted to Python3/QGIS3
+    1.0 - First stable release
+    0.9 - All features implemented
+    0.8 - First testing release
+
+tags=wkt,vector,sampling,plotting
+
+homepage=http://www.server.org
+icon=icon.png
+
+experimental=True
+deprecated=False
+
+; preparing icon
+; pyrcc5 -o resources.py resources.qrc
